@@ -46,7 +46,7 @@ public class Player : MonoBehaviour
 
         }
 
-        if (transform.position.y <= -10)
+        if (transform.position.y <= -0.3)
         {
             //jogador caiu
             SceneManager.LoadScene(SceneManager.GetActiveScene().name);
